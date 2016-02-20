@@ -1,0 +1,158 @@
+﻿[2016.02.20-11.39.38:746][  0]Log file open, 02/20/16 12:39:38
+[2016.02.20-11.39.38:746][  0]LogInit:Display: Running engine for game: MyProject
+[2016.02.20-11.39.38:746][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.20-11.39.38:746][  0]LogInit:Display: RandInit(1450180850) SRandInit(1450180855).
+[2016.02.20-11.39.38:746][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.20-11.39.38:746][  0]LogStats: Stats thread started at 0.126417
+[2016.02.20-11.39.38:746][  0]LogInit: Version: 4.10.3-2866931+++depot+UE4-Releases+4.10
+[2016.02.20-11.39.38:746][  0]LogInit: API Version: 2758231
+[2016.02.20-11.39.38:746][  0]LogInit: Compiled (64-bit): Feb 15 2016 08:20:45
+[2016.02.20-11.39.38:746][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.20-11.39.38:746][  0]LogInit: Build Configuration: Development
+[2016.02.20-11.39.38:746][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.20-11.39.38:746][  0]LogInit: Command line: 
+[2016.02.20-11.39.38:746][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.20-11.39.38:746][  0]LogInit: Rocket: 1
+[2016.02.20-11.39.38:759][  0]LogInit: Using libcurl 7.41.0
+[2016.02.20-11.39.38:759][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.20-11.39.38:759][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.20-11.39.38:759][  0]LogInit:  - other features:
+[2016.02.20-11.39.38:759][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.20-11.39.38:759][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.20-11.39.38:759][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.20-11.39.38:759][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.20-11.39.38:759][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.20-11.39.38:759][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.20-11.39.38:759][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.20-11.39.38:759][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.20-11.39.38:759][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.20-11.39.38:759][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.20-11.39.38:773][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.20-11.39.38:784][  0]LogInit: Object subsystem initialized
+[2016.02.20-11.39.38:785][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.20-11.39.38:785][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.20-11.39.38:878][  0]LogInit: Computer: ADMIN-HP
+[2016.02.20-11.39.38:878][  0]LogInit: User: Joel
+[2016.02.20-11.39.38:878][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.20-11.39.38:878][  0]LogInit: High frequency timer resolution =2.597695 MHz
+[2016.02.20-11.39.38:878][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.02.20-11.39.38:878][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.20-11.39.38:878][  0]LogMemory: Process Physical Memory: 56.10 MB used, 56.10 MB peak
+[2016.02.20-11.39.38:878][  0]LogMemory: Process Virtual Memory: 57.82 MB used, 57.82 MB peak
+[2016.02.20-11.39.38:878][  0]LogMemory: Physical Memory: 4226.25 MB used, 8123.25 MB total
+[2016.02.20-11.39.38:878][  0]LogMemory: Virtual Memory: 347.88 MB used, 8388608.00 MB total
+[2016.02.20-11.39.38:952][  0]LogTextLocalizationManager: No translations for ('de-DE') exist, falling back to 'en' for localization and internationalization data.
+[2016.02.20-11.39.39:742][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 8500 GT (Feature Level 10_0)
+[2016.02.20-11.39.39:742][  0]LogD3D11RHI: Adapter has 233MB of dedicated video memory, 0MB of dedicated system memory, and 3583MB of shared system memory, 1 output[s]
+[2016.02.20-11.39.39:742][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.20-11.39.39:753][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.20-11.39.39:753][  0]LogRHI: Texture pool is 163 MB (70% of 233 MB)
+[2016.02.20-11.39.39:767][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.20-11.39.39:782][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Joel/Documents/Unreal Projects/MyProject/Intermediate/Shaders/WorkingDirectory/1876/).
+[2016.02.20-11.39.39:782][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Joel/AppData/Local/Temp/UnrealShaderWorkingDir/9F0B12414A0239610C7EADAABD3ABCBD/'.
+[2016.02.20-11.39.39:782][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.20-11.39.44:779][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.20-11.39.44:789][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.20-11.39.44:799][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.20-11.39.44:809][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.20-11.39.44:818][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.20-11.39.44:825][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.20-11.39.44:831][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.20-11.39.44:838][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.20-11.39.44:844][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.20-11.39.44:851][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.20-11.39.44:857][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.20-11.39.44:871][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.20-11.39.44:871][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.20-11.39.44:873][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.20-11.39.44:897][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.20-11.39.44:903][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.20-11.39.44:910][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.20-11.39.44:917][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.20-11.39.44:917][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.20-11.39.45:094][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.20-11.39.45:201][  0]LogDerivedDataCache: Loaded boot cache 0.11s 36MB C:/Users/Joel/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.20-11.39.45:201][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Joel/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.20-11.39.45:201][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Joel/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.20-11.39.45:201][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.20-11.39.45:201][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Joel/Documents/Unreal Projects/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.20-11.39.45:201][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.20-11.39.45:299][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.20-11.39.45:312][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.20-11.39.45:637][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.20-11.39.45:637][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.20-11.39.45:709][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.20-11.39.45:709][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.20-11.39.46:424][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.20-11.39.48:283][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.20-11.39.48:454][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
+[2016.02.20-11.39.48:974][  0]SourceControl: Info Source control is disabled
+[2016.02.20-11.39.48:975][  0]SourceControl: Info Source control is disabled
+[2016.02.20-11.39.49:001][  0]SourceControl: Info Source control is disabled
+[2016.02.20-11.39.49:025][  0]SourceControl: Info Source control is disabled
+[2016.02.20-11.39.49:557][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.02.20-11.39.49:557][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.02.20-11.39.49:646][  0]LogEngine: Initializing Engine...
+[2016.02.20-11.39.49:653][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.20-11.39.49:654][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.20-11.39.49:865][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.20-11.39.49:876][  0]LogInit: XAudio2 using 'Lautsprecher (SoundMAX Integrated Digital HD Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.20-11.39.49:920][  0]LogInit: FAudioDevice initialized.
+[2016.02.20-11.39.49:963][  0]LogDerivedDataCache: Saved boot cache 0.04s 36MB C:/Users/Joel/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.20-11.39.49:981][  0]LogInit: Texture streaming: Enabled
+[2016.02.20-11.39.49:992][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.20-11.39.49:992][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.3-2866931+++depot+UE4-Releases+4.10
+[2016.02.20-11.39.49:993][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 565be6c34fb981070001958504868c35|2e0d2681b4a248c5a810fd29f727efaa|bce06889-fe1c-4443-9637-c717574eff5c
+[2016.02.20-11.39.49:993][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.20-11.39.50:007][  0]LogInit: Transaction tracking system initialized
+[2016.02.20-11.39.50:064][  0]BlueprintLog: New page: Editor Load
+[2016.02.20-11.39.50:513][  0]LocalizationService: Info Localization service is disabled
+[2016.02.20-11.39.50:830][  0]LogConsoleResponse:Display: 
+[2016.02.20-11.39.51:053][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joel/Documents/Unreal Projects/MyProject/Content/' took 0.03s
+[2016.02.20-11.39.51:053][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.20-11.39.51:172][  0]SourceControl: Info Source control is disabled
+[2016.02.20-11.39.51:172][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Joel/Documents/Unreal Projects/MyProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2016.02.20-11.39.51:172][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Joel/Documents/Unreal Projects/MyProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.02.20-11.39.51:172][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.20-11.39.51:319][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 146.394ms to complete.
+[2016.02.20-11.39.51:319][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.147
+[2016.02.20-11.39.51:547][  0]LogCollectionManager: Loaded 0 collections in 0.004210 seconds
+[2016.02.20-11.39.51:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joel/Documents/Unreal Projects/MyProject/Saved/Collections/' took 0.01s
+[2016.02.20-11.39.51:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joel/Documents/Unreal Projects/MyProject/Content/Developers/Joel/Collections/' took 0.01s
+[2016.02.20-11.39.51:906][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joel/Documents/Unreal Projects/MyProject/Content/Collections/' took 0.01s
+[2016.02.20-11.39.51:906][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.02.20-11.39.51:922][  0]LogContentBrowser: Native class hierarchy populated in 0.0152 seconds. Added 1893 classes and 338 folders.
+[2016.02.20-11.39.52:025][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.02.20-11.39.53:526][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.02.20-11.39.53:745][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.02.20-11.39.54:292][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.20-11.39.54:365][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.20-11.39.54:388][  0]LogLoad: Full Startup: 17.36 seconds (BP compile: 0.01 seconds)
+[2016.02.20-11.39.54:411][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.20-11.39.54:606][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.02.20-11.39.55:126][  0]LogRenderer: Reallocating scene render targets to support 844x536 (Frame:2).
+[2016.02.20-11.39.56:320][  3]LogAssetRegistry: Asset discovery search completed in 7.8754 seconds
+[2016.02.20-11.39.56:320][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.02.20-11.39.56:320][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2016.02.20-12.45.45:446][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.20-12.45.45:465][271]PIE: New page: PIE session: Untitled_0 (Feb 20, 2016, 2:45:45 PM)
+[2016.02.20-12.45.45:543][271]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_0
+[2016.02.20-12.45.45:568][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025135s)
+[2016.02.20-12.45.45:569][271]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.20-12.45.45:570][271]LogPlayLevel: PIE: World Init took: (0.001354s)
+[2016.02.20-12.45.45:582][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_0.NewWorld to /Temp/UEDPIE_0_Untitled_0.NewWorld (0.053733s)
+[2016.02.20-12.45.45:698][271]LogInit: XAudio2 using 'Lautsprecher (SoundMAX Integrated Digital HD Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.20-12.45.45:713][271]LogInit: FAudioDevice initialized.
+[2016.02.20-12.45.45:936][271]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2016.02.20-12.45.45:937][271]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2016.02.20-12.45.45:937][271]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'
+[2016.02.20-12.45.45:937][271]LogWorld: Game class is 'GameMode'
+[2016.02.20-12.45.45:941][271]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_0.NewWorld up for play (max tick rate 0) at 2016.02.20-13.45.45
+[2016.02.20-12.45.45:941][271]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_0.NewWorld:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.20-12.45.45:942][271]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_0.NewWorld:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.20-12.45.45:966][271]LogWorld: Bringing up level for play took: 0.026095
+[2016.02.20-12.45.46:193][271]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_0 1.093
+[2016.02.20-12.46.04:430][ 35]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010574EA0
+[2016.02.20-12.46.06:777][105]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.20-12.46.06:777][105]PIE: New page: PIE session: Untitled_0 (Feb 20, 2016, 2:46:06 PM)
+[2016.02.20-12.46.06:777][1
